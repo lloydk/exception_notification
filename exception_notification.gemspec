@@ -16,8 +16,8 @@ Gem::Specification.new do |s|
   s.test_files = `git ls-files -- test`.split("\n")
   s.require_path = 'lib'
 
-  s.add_dependency("actionmailer", "~> 5.0.0.beta")
-  s.add_dependency("activesupport", "~> 5.0.0.beta")
+#  s.add_dependency("actionmailer", "~> 5.0.0.beta")
+#  s.add_dependency("activesupport", "~> 5.0.0.beta")
 
   s.add_development_dependency "rails", "~> 5.0.0.beta"
   s.add_development_dependency "resque", "~> 1.2.0"
